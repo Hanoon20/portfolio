@@ -1,0 +1,73 @@
+
+.ug {
+    
+   
+
+  width: 100%;
+    height: 100%;
+    background-color: #313131;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+    background-attachment: fixed; 
+}
+
+.project{
+
+        
+        font-weight: 100;
+        font-style: normal;
+        font-style: normal;
+        font-size: 1.9rem;
+        color: rgb(255, 255, 255);
+        padding-top: 5%;
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around; 
+    align-items: center; 
+    justify-items: center; 
+    grid-gap: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.child {
+    border-radius: 25px;
+    width: 100%;
+    height: auto; /* Optional: Define a height for better centering */
+    display: block; /* Flexbox for further child-level control */
+    align-items: center; /* Vertically center content in each child */
+    justify-content: center; /* Horizontally center content in each child */
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    padding-bottom: 25px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.project-btn{
+    @apply  mt-4 py-2 px-6 text-white rounded-lg transition-colors;
+
+}
+
+.project-desc{
+    @apply absolute bottom-[0px] left-0 right-0 top-[0px] opacity-0 duration-500 hover:opacity-100;
+}
+
+@media (max-width: 768px) {
+    .parent {
+        display:block;   
+    }
+    
+    .child {
+        padding: 5px;
+        margin-top: 30%;
+    }
+}

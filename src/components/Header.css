@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    width: 100%;
+    height: 100%;
+    background-color: #313131;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+    background-attachment: fixed;
+}
+
+.name{
+    @apply flex items-center;
+}
+
+header ul li{
+    @apply px-4 py-2;   
+}
+
+header ul li:hover {
+    @apply font-bold; /* Changes text color to blue on hover */
+
+    color: rgb(255, 188, 126);;
+  }
+
+.bg-primary{
+    background: #ff0080;
+    background-attachment: fixed;
+}
+
+
+.mobile-dev{
+    @apply fixed top-12 left-0 bg-gray-700 justify-between w-full h-1/4;
+}
+
+.mobile-dev li{
+    @apply w-full h-full items-center text-center border-b-2;
+}

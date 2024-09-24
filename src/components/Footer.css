@@ -1,0 +1,14 @@
+.download{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(243, 178, 0, 0.486);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.download:hover{
+    background-color: rgba(65, 209, 8, 0.712);
+}

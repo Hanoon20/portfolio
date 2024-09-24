@@ -1,0 +1,52 @@
+.contact-sec{
+   background-color: rgba(150, 221, 212, 0.712);
+}
+
+.submit-btn{
+   background: #ff8615d8;
+} 
+
+.words{
+   font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    padding-top: 20%;
+}
+
+.getIn{
+   font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.submitted{
+   font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+   
+
+@media (max-width: 768px) {
+   .parent {
+       display:block;   
+   }
+   
+   .child {
+       padding: 5px;
+       margin-top: 30%;
+   }
+
+   .media{
+      justify-content: center;
+   }
+
+   .form-submit {
+      padding: 20px; /* Increase padding for mobile for better touch targets */
+  }
+}  
