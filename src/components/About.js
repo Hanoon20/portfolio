@@ -12,9 +12,7 @@ export default function About(){
                     I love creating dynamic, responsive web apps with clean, scalable code for smooth user experiences. 
                     I'm skilled in React for front-end, Node.js for back-end, and experienced with databases and cloud deployment."
                     <br />
-                    <button className='btn ms-0 md:text-center md:justify-center md:ms-36'><a href="https://drive.google.com/file/d/1_sFmMlMChdgHQjc-z-E9ZtjZB8IRTu6X/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a> <BsCloudDownload /></button></p>
-                    
-                    
+                    <button className='btn ms-0 md:text-center md:justify-center md:ms-36'><a href="https://drive.google.com/file/d/1iA4XvWbb1T61UeuhJ2hb4NyynkcyZN9Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a> <BsCloudDownload /></button></p>
                 </div>
             </div>
         </section>
